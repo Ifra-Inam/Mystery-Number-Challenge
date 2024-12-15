@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mystery Number Challenge</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,800&family=Fjalla+One&family=Press+Start+2P&family=Protest+Revolution&display=swap" rel="stylesheet">
+        <script src="client.js" defer></script>
+    </head>
+    <body onload="loadLosePage()"> 
+        
+        <a href="homePage.html"><img id="logo" src="img/logo.png" alt="CodeCrafters Logo"></a>
+        <a href="helpPage.html"><button id="helpButton">HELP</button></a>
+
+
+        <div id="losePage" class="sameStyle">
+            <h1 class="h1Style">You Lost <span id="usernameDisplayed"></span>!</h1>
+            <p class="pStyle">The number was <span id="secretNumber"></span>.</p>
+            <p class="pStyle">Score: <span id="score"></span></p>
+            <br>
+            <a href="levelsPage.html" id="playAgain"><button>PLAY AGAIN</button></a>
+            <br><br><br>
+            <a href="homePage.html" id="quit"><button>QUIT</button></a>
+        </div>
+
+    </body>
+</html>

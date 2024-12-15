@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    background-color: rgb(104, 146, 100);
+    font-family: Arial, sans-serif; 
+}
+
+a { 
+    text-decoration: none; 
+}
+
+button {
+    border: 3px solid rgb(56, 80, 47); 
+    padding: 20px 50px; 
+    font-size: 3.15em;
+    border-radius: 20px; 
+    color: rgb(56, 80, 47);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}
+
+img {
+    width: 5em;
+    margin: 15px 15px; 
+}
+
+#helpButton {
+    float: right;
+    padding: 10px 15px; 
+    margin: 15px 15px; 
+    font-size: 15px; 
+    border: none;
+}
+
+input {
+    width: 400px;
+    height: 50px; 
+    padding-left: 15px; 
+    border: 3px solid rgb(56, 80, 47);
+    border-radius: 10px; 
+    color: rgb(56, 80, 47);
+    font-size: 30px; 
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* HOME PAGE STYLE */
+#homePage {
+    padding-top: 5.4em;
+    color: rgb(56, 80, 47);
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+#homePage h1 {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    font-size: 5em;
+    line-height: 1.5;
+}
+
+/* HELP PAGE STYLE */
+#helpPage {
+    padding-top: 2.5em;
+    width: 85%;
+    color: rgb(56, 80, 47);
+    margin: auto;
+    display: grid; 
+    place-items: center;
+}
+
+#helpPage h1 {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    font-size: 3.15em;
+}
+
+#instructions {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.5em;
+    line-height: 2;
+}
+
+/* USERNAME PAGE, MAX NUM PAGE, GAME PAGE, LOSE PAGE STYLE */
+.sameStyle {
+    padding-top: 10.5em;
+    color: rgb(56, 80, 47);
+    text-align: center;
+}
+
+#gamePage {
+    padding-top: 0;
+}
+
+#losePage {
+    padding-top: 1vh;
+}
+
+label {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    font-size: 3.5em;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+}
+
+#numGuessLabel {
+    margin: auto;
+    width: 90%;
+}
+
+h4, h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.6em;
+}
+
+/* LEVELS PAGE STYLE */
+#levelsPage {
+    color: rgb(56, 80, 47);
+    text-align: center;
+}
+
+#levelsPage h1 {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    font-size: 3.15em;
+    line-height: 1.5;
+    width: 50%;
+    margin: auto;
+}
+
+.level {
+    margin: auto;
+    display: block;
+}
+
+/* CHOSEN LEVEL PAGE, LOSE PAGE, WIN PAGE STYLE */
+#chosenLevelPage {
+    color: rgb(56, 80, 47);
+    text-align: center;
+}
+
+.h1Style {
+    font-family: 'Protest Revolution', Arial, sans-serif;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+.pStyle {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 50%;
+    margin: auto;
+    font-size: 3.15em;
+    line-height: 2;
+}
+
+#confettiImg {
+    margin-top: -27em;
+    width: 100vh;
+}
+
+/* POP UP WINDOW STYLE*/
+#overlay {
+    position: fixed; 
+    display: block; 
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    padding: 10vw;
+    z-index: 2; 
+}
+
+#attemptsWindow {
+    margin-top: 1.5em;
+    text-align: center;
+    background-color: rgb(104, 146, 100);
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 3.15em;
+    color: rgb(56, 80, 47);
+}
+
+#windowText {
+    padding: 20px;
+    font-size: 4em;
+}
+
+#continueButton2 {
+    padding: 20px 30px;
+    font-size: 30px; 
+}
+  

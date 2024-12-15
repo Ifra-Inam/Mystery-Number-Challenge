@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mystery Number Challenge</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,800&family=Fjalla+One&family=Press+Start+2P&family=Protest+Revolution&display=swap" rel="stylesheet">
+        <script src="client.js" defer></script>
+    </head>
+    <body onload="loadChosenLevelPage()"> 
+        
+        <a href="homePage.html"><img id="logo" src="img/logo.png" alt="CodeCrafters Logo"></a>
+        <a href="helpPage.html"><button id="helpButton">HELP</button></a>
+
+        <div id="chosenLevelPage">
+            <h1 class="h1Style">Welcome <span id="usernameDisplayed"></span>!</h1>
+            <p class="pStyle">You have selected <span id="chosenLevel"></span> mode. Each round, you will have <span id="attempts"></span> <span id="singlePlural"></span> to guess the number. Good Luck!</p>
+            <br><br>
+            <a href="maxNumPage.html"><button id="continueButton1">CONTINUE</button></a>
+        </div>
+
+    </body>
+</html>
