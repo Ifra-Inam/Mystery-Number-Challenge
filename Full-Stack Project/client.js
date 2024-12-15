@@ -1,6 +1,6 @@
 /**
  * FULL-STACK PROJECT
- * Authors: Ifra Inam
+ * Author: Ifra Inam
 
 === Module Description ===
 This is the client side code for a number guessing game.
