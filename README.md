@@ -1,1 +1,1 @@
-# Mystery-Number-Challenge
+As part of my first-year Computer Science course at York University, I developed a fully functional, dynamic game for my final project. The project utilized a combination of HTML, CSS, JavaScript, Node.js, Express, and Vitest for testing, following both Waterfall and Agile methodologies. This allowed me to deliver a robust, interactive gaming experience while incorporating best practices in both development and project management.
